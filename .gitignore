@@ -6,6 +6,19 @@
 /out-tsc
 /bazel-out
 
+# dependencies
+/node_modules
+*.zip
+.angular
+
+#files
+.sonar_lock
+report-task
+sonar-project
+sonar-project.properties
+/.scannerwork
+/package-lock.json
+
 # Node
 /node_modules
 npm-debug.log
